@@ -1,0 +1,2 @@
+#include <stdio.h>
+int main(){int age,c; scanf("%d%d",&age,&c); if(age>=18){ if(c==1) printf("Eligible to Vote"); else printf("Not Eligible (Not Citizen)"); } else printf("Not Eligible (Under Age)"); return 0;}
